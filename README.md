@@ -7,7 +7,7 @@ This problem touches too many topics outside of the CMake, C++, Windows world I 
 * Do we fall under the Cygwin licencing if the tools we use to compile our code were build with Cygwin? If we would only internally use that tools not to distribute the software would the licence apply?
 * Would it be feasible use [sccache] and run the servers for distribution in a VM with Linux on our Windows Systems?
 * What is the progress on the [ccache] Windows adoption?
-* I ruled out some of the option due to there lack of maintenance, does someone have expirience with them? Uses them in production?
+* I ruled out some of the option due to there lack of maintenance, does someone have experience with them? Uses them in production?
 
 ## Goal
 
@@ -21,7 +21,7 @@ We use CMake 3.16 and if somehow possible we do not want to change that. All wor
 ## Research
 
 ### Summary
-There are great free solutions for Unix-like systems but they do not support Windows. For Windows with CMake there are some free but outdated options for caching. [sccache] seems to be the only aplicable option which might force us to switch the compiler to be able to cache when debugging. There seems to be no free solution for distribution. Also there are fee required options for caching and distribution. [FastBuild] would be a perfect fit but there is no CMake generator for it.
+There are great free solutions for Unix-like systems but they do not support Windows. For Windows with CMake there are some free but outdated options for caching. [sccache] seems to be the only applicable option which might force us to switch the compiler to be able to cache when debugging. There seems to be no free solution for distribution. Also there are fee required options for caching and distribution. [FastBuild] would be a perfect fit but there is no CMake generator for it.
 
 ### CMake
 On Unix-like systems one can easily setup caching with CMake. *code from [modern-cmake](https://cliutils.gitlab.io/modern-cmake/chapters/features/utilities.html)*
