@@ -1,4 +1,4 @@
-# Are-there-free-tools-setups-for-cached-distributed-C-compiling-with-CMake-on-Windows-
+# Are there free tools/setups for cached, distributed C++ compiling with CMake on Windows?
 
 This problem touches too many topics outside of the CMake, C++, Windows world I am familiar with. I kind of hit a wall of way to many options to explore each one. Actually I am hoping for someone posting their workflow which we can adopt. Otherwise answers to these questions that came up while [researching](#research) would help me to come closer to a solution:
 
